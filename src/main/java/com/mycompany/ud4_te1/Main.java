@@ -11,6 +11,10 @@ public class Main {
         saldoActual = cuentaTrabajo.estado();
         System.out.println("El saldo actual es " + saldoActual);
 
+        operativaCuenta(cuentaTrabajo);
+    }
+
+    private static void operativaCuenta(CCuenta cuentaTrabajo) {
         try {
             System.out.println("Cargo en cuenta");
             cuentaTrabajo.retirar(2300);
