@@ -1,0 +1,44 @@
+[33mcommit 9a32ee9350c9590e6d159f74adea0d1967f5ff15[m[33m ([m[1;36mHEAD -> [m[1;32mmaster[m[33m)[m
+Author: nuriadomenech <ndomenech@birt.eus>
+Date:   Tue May 9 18:58:46 2023 +0200
+
+    Versión 5. Quinto commit del proyecto. Se han realizado los siguientes cambios en la clase CCuenta:
+    - Se ha añadido la constante COMISION en el valor 2 del método retirar.
+
+[33mcommit f113c0f97b4484b2ea1546861cce1eccbed7a699[m
+Author: nuriadomenech <ndomenech@birt.eus>
+Date:   Tue May 9 18:56:06 2023 +0200
+
+    Versión 4. Cuarto commit del proyecto. Se han realizado los siguientes cambios en la clase Main:
+    - Añadido nuevo parámetro al método operativaCuenta, donde se expresa la cantidad a retirar, se añade el parámetro "cantidad".
+    - Se cambia el tipo de int a double.
+
+[33mcommit dcc3f0eeff933adbbdad23e29ad6730f358707d8[m
+Author: nuriadomenech <ndomenech@birt.eus>
+Date:   Tue May 9 18:51:33 2023 +0200
+
+    Versión 3. Tercer commit del proyecto. Se han realizado los siguientes cambios en la clase CCuenta:
+    - Borrar los métodos que no se usan en el programa siendo comprobados con Safely Delete.
+    - Renombrar el método estado() por getEstado() para que se entienda el getter.
+    - Encapsular los atributos de la clase CCuenta para añadir los setters y getters que faltaban.
+
+[33mcommit 3268063db2438650c7073c2bf3501b681d080360[m[33m ([m[1;31morigin/master[m[33m)[m
+Author: nuriadomenech <ndomenech@birt.eus>
+Date:   Mon May 8 17:12:35 2023 +0200
+
+    Versión 2. Segundo commit del proyecto. Se han realizado los siguientes cambios:
+    - Introducir el método operativaCuenta englobando los métodos try y catch que anteriormente estaban en el main.
+
+[33mcommit 3b40697bd7bcc96f7d530bddfee2848781a8caee[m
+Author: nuriadomenech <ndomenech@birt.eus>
+Date:   Mon May 8 16:36:25 2023 +0200
+
+    Versión 1. Primer commit del proyecto. Se han realizado los siguientes cambios:
+    - rename variable miCuenta por cuentaTrabajo
+    - rename tipoInterés por tipoInteres, así como sus getters y setters
+
+[33mcommit 460075c79d7208d8662c2d80980b6fc050f053e8[m
+Author: ed-birt <daw_ed@birt.eus>
+Date:   Thu Apr 15 08:53:09 2021 +0200
+
+    Versión 0. Commit inicial del proyecto.
