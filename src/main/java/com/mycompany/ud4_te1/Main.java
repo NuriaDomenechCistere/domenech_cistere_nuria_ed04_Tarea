@@ -11,13 +11,13 @@ public class Main {
         saldoActual = cuentaTrabajo.getSaldo();
         System.out.println("El saldo actual es " + saldoActual);
 
-        operativaCuenta(cuentaTrabajo);
+        operativaCuenta(cuentaTrabajo, 2300);
     }
 
-    private static void operativaCuenta(CCuenta cuentaTrabajo) {
+    private static void operativaCuenta(CCuenta cuentaTrabajo, double cantidad) {
         try {
             System.out.println("Cargo en cuenta");
-            cuentaTrabajo.retirar(2300);
+            cuentaTrabajo.retirar(cantidad);
             System.out.println("El nuevo saldo es: " + cuentaTrabajo.getSaldo());
         } catch (Exception e) {
             System.out.print("Fallo al retirar");
