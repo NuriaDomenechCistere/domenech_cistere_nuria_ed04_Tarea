@@ -82,10 +82,11 @@ public class CCuenta {
     public void retirar(double cantidad) throws Exception {
         if (cantidad <= 0)
             throw new Exception ("No se puede retirar una cantidad negativa");
-        if (getSaldo() < cantidad + 2)
+        if (getSaldo() < cantidad + COMISION)
             throw new Exception ("No se hay suficiente saldo");
-        saldo = saldo - (cantidad + 2);
+        saldo = saldo - (cantidad + COMISION);
     }
+    private static final int COMISION = 2;
 
 
 
